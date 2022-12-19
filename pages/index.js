@@ -5,6 +5,7 @@ import NewsSection from '../components/sections/NewsSection';
 import DiscoverSection from '../components/sections/DiscoverSection';
 import Card from '../components/ui/Card';
 import TumNumber from '../components/sections/TumNumber';
+import ActivitySection from '../components/sections/ActivitySection';
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -22,6 +23,7 @@ export default function Home() {
      <NewsSection/>
      <DiscoverSection/>
      <TumNumber/>
+     <ActivitySection/>
       </main>
     </>
   )
